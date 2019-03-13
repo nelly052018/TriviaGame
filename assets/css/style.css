@@ -1,0 +1,25 @@
+body {
+    align-content: center;
+}
+.startcard {
+    align-content: center;
+}
+#startClock {
+    background-color: blueviolet;
+    padding: 40px;
+
+}
+#stopClock {
+    background-color: coral;
+    padding: 20 *10 px;
+}
+.questions{
+    text-align: center;
+}
+.startcard {
+    text-align: center
+
+}
+h1{
+    text-align: center;
+}

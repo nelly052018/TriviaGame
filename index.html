@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="startcard">
+
+
+
+        <h1>Superhero Trivia</h1>
+        <div id="buttons">
+            <button id="startClock">
+                <h2>Start</h2>
+            </button>
+        </div>
+
+
+    </div>
+
+    <div class="questions">
+
+
+
+        <p id="time">Time Remaining:</p>
+
+
+        <p id="qone"> Which superhero earned the nickname "the deadliest woman in the whole galaxy"?</p>
+        <div>
+            <input type="radio" id="que1" name="trivia1" value="Wonder Woman">
+            <label for="trivia1">Wonder Woman</label>
+            <input type="radio" id="que1" name="trivia1" value="Storm">
+            <label for="trivia1">Storm</label>
+            <input type="radio" id="que1" name="trivia1" value="Gamora">
+            <label for="trivia1">Gamora</label>
+            <input type="radio" id="que1" name="trivia1" value="Captain Marvel">
+            <label for="trivia1">Captain Marvel</label>
+
+        </div>
+        <p id="qtwo"></p> Which superhero has the ability to control the weather?</p>
+        <div>
+            <input type="radio" id="que2" name="trivia2" value="Super Girl">
+            <label for="trivia2">Super Girl</label>
+            <input type="radio" id="que2" name="trivia2" value="Storm">
+            <label for="trivia2">Storm</label>
+            <input type="radio" id="que2" name="trivia2" value="Shuri">
+            <label for="trivia2">Shuri</label>
+            <input type="radio" id="que2" name="trivia2" value="Wasp">
+            <label for="trivia2">Wasp</label>
+        </div>
+        <p id="qthree"></p> Which superhero is a tech genius?</p>
+        <div>
+            <input type="radio" id="que3" name="trivia3" value="Shuri">
+            <label for="trivia3">Shuri</label>
+            <input type="radio" id="que3" name="trivia3" value="Storm">
+            <label for="trivia3">Storm</label>
+            <input type="radio" id="que3" name="trivia3" value="Catwoman">
+            <label for="trivia3">Catwoman</label>
+            <input type="radio" id="que3" name="trivia3" value="Black Widow">
+            <label for="trivia3">Black Widow</label>
+        </div>
+        <p id="qfour"></p> Which superhero fights with a golden lasso?</p>
+        <div>
+            <input type="radio" id="que4" name="trivia4" value="Spider Woman">
+            <label for="trivia4">Spider Woman</label>
+            <input type="radio" id="que4" name="trivia4" value="Wonder Woman">
+            <label for="trivia4">Wonder Woman</label>
+            <input type="radio" id="que4" name="trivia4" value="Harley Quinn">
+            <label for="trivia4">Harley Quinn</label>
+            <input type="radio" id="que4" name="trivia4" value="Wasp">
+            <label for="trivia4">Wasp</label>
+        </div>
+
+
+        <div id="buttons">
+            <button id="stopClock">
+                <h2>Done</h2>
+            </button>
+        </div>
+    </div>
+    <div class="endcard">
+
+
+
+        <p>Score: <span id="score"></span></p>
+        <p>Wrong: <span id="wrong"></span></p>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="assets/javascript/app.js">
+    </script>
+
+</body>
+
+</html>
